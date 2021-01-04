@@ -1,0 +1,168 @@
+body{
+    background-image: url('trv3.jpg') no repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    
+
+}
+.cls ul li{
+    font-size: 20;
+    height: 20px;
+    width: 200px;
+    float: left;
+    background-color: chartreuse;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.cls ul ul{
+    display: none;
+    
+}
+
+.cls ul li:hover> ul {
+    display: block;
+    background-color: pink;
+}
+
+ .cls ul ul ul{
+    margin-left: 160px;
+    top: 0;
+    position: absolute;
+}
+
+.b {
+   background-color:pink;
+   border-radius: 10px;
+   width: 250px;
+   height: 30px;
+
+}
+
+
+ #nav1{
+    margin-top: 40px;
+    margin-left: 400px;
+    text-align: center;
+    background:rgb(109, 109, 197);
+    border-radius: 5px;
+    width: 270px;
+    height: 300px;
+ }
+ .acc{
+      margin-top:80 ;
+      text-align: center;
+
+
+ }
+
+ .ht{
+    margin-top:20 ;
+    background-color: crimson;
+    width: 200px;
+    height: 150px;
+    margin-left: 450px;
+
+
+}
+
+#sub{
+    margin-top:70px ;
+    width: 700px;
+    background-color: cyan;
+    margin-left: 300px;
+
+
+}
+
+
+#anima{
+
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    position: relative;
+    animation-name: koly;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: 2;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+
+    
+
+}
+
+@keyframes koly {
+       0% {
+           background-color: red;
+           left: 0px;
+           top: 0px;
+           
+       }
+
+       
+       25% {
+         background-color:green;
+         left: 200px;
+         top: 0px;
+     }
+
+     
+     50% {
+         background-color:yellow;
+         left: 200px;
+         top: 150px;
+         border-radius: 100px;
+         
+         
+     }
+       
+ 75% {
+     background-color:black;
+     left: 0px;
+     top: 150px;
+     
+     }
+
+     100% {
+         background-color:purple;
+         left: 0px;
+         top: 0px;
+         
+          }
+ 
+
+     
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
